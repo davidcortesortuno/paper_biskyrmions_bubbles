@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1420447.svg)](https://doi.org/10.5281/zenodo.1420447)
+
+
 # Supplementary data for: A Reassessment of Magnetic Biskyrmions
 
 ![](images/bubble_lattice.png)
