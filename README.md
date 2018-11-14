@@ -42,7 +42,7 @@ If you find this material useful please cite us:
 
 ```
 @Misc{Cortes2018,
-  author       = {David Cort{\'e}s-Ortu{\~n}o and James Loudon and Ryan Pepper and Marijan Beg and Ondrej Hovorka and Hans Fangohr},
+  author       = {David Cort{\'e}s-Ortu{\~n}o and James Loudon and Marijan Beg and Ondrej Hovorka and Hans Fangohr},
   title        = {{Supplementary data for: A Reassessment of Magnetic Biskyrmions}},
   howpublished = {Zenodo doi:10.5281/zenodo.1420447. Github: https://github.com/davidcortesortuno/paper_biskyrmions_bubbles},
   year         = {2018},

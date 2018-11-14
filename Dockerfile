@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 # -----------------------------------------------------------------------------
 # LIBRARIES
@@ -29,7 +29,7 @@ RUN apt install -y git tk-dev tcl-dev wget
 
 # Compile oommf 2.0a and create OOMMFTCL environment variable
 WORKDIR /usr/local
-RUN git clone https://github.com/fangohr/oommf
+RUN git clone https://github.com/fangohr/oommf --branch 2.0a0_20170929a0
 WORKDIR /usr/local/oommf
 RUN make build-with-dmi-extension-all
 WORKDIR /usr/local
