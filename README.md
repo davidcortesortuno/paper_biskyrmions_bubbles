@@ -1,11 +1,11 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1420447.svg)](https://doi.org/10.5281/zenodo.1420447)
 
 
-# Supplementary data for: A Reassessment of Magnetic Biskyrmions
+# Supplementary data for: Do Images of Biskyrmions Show Type-II Bubbles?
 
 ![](images/bubble_lattice.png)
 
-This repository contains the micromagnetic simulation scripts for the publication **A Reassessment of Magnetic Biskyrmions** by *J. C. Loudon, A. C. Harrison, D. Cortes-Ortuno, M. T. Birch, L. A. Turnbull, A. Stefancic, F. Ogrin, E. Burgos-Parra, A. Campbell, H. Popescu, M. Beg, O. Hovorka, H. Fangohr, P. A. Midgley, G. Balakrishnan and P. D. Hatton*
+This repository contains the micromagnetic simulation scripts for the publication **Do Images of Biskyrmions Show Type-II Bubbles?** by *J. C. Loudon, A. C. Harrison, D. Cortes-Ortuno, M. T. Birch, L. A. Turnbull, A. Stefancic, F. Ogrin, E. Burgos-Parra, A. Campbell, H. Popescu, M. Beg, O. Hovorka, H. Fangohr, P. A. Midgley, G. Balakrishnan and P. D. Hatton*
 
 Simulations are based on the OOMMF code [2] and its Jupyter interface JOOMMF [3]
 
@@ -41,11 +41,11 @@ An interactive example is given in the main folder to simulate a type-II bubble
 If you find this material useful please cite us:
 
 ```
-@Misc{Cortes2018,
+@Misc{Cortes2019,
   author       = {David Cort{\'e}s-Ortu{\~n}o and James Loudon and Marijan Beg and Ondrej Hovorka and Hans Fangohr},
-  title        = {{Supplementary data for: A Reassessment of Magnetic Biskyrmions}},
+  title        = {{Supplementary data for: Do Images of Biskyrmions Show Type-II Bubbles?}},
   howpublished = {Zenodo doi:10.5281/zenodo.1420447. Github: https://github.com/davidcortesortuno/paper_biskyrmions_bubbles},
-  year         = {2018},
+  year         = {2019},
   doi          = {10.5281/zenodo.1420447},
   url          = {https://doi.org/10.5281/zenodo.1420447},
 }
