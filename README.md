@@ -7,7 +7,7 @@
 
 This repository contains the micromagnetic simulation scripts for the publication **Do Images of Biskyrmions Show Type-II Bubbles?** by *J. C. Loudon, A. C. Harrison, D. Cortes-Ortuno, M. T. Birch, L. A. Turnbull, A. Stefancic, F. Ogrin, E. Burgos-Parra, A. Campbell, H. Popescu, M. Beg, O. Hovorka, H. Fangohr, P. A. Midgley, G. Balakrishnan and P. D. Hatton*
 
-Simulations are based on the OOMMF code [2] and its Jupyter interface JOOMMF [3]
+Simulations are based on the OOMMF code [1] and its Jupyter interface JOOMMF [2]
 
 # Simulations
 
@@ -53,8 +53,6 @@ If you find this material useful please cite us:
 
 # References
 
-[1]
+[1] M. J. Donahue and D. G. Porter, *OOMMF Users Guide, Version 1.0*, Tech. Rep. (National Institute of Standards and Technology, Gaithersburg, MD, 1999).
 
-[2] M. J. Donahue and D. G. Porter, *OOMMF Users Guide, Version 1.0*, Tech. Rep. (National Institute of Standards and Technology, Gaithersburg, MD, 1999).
-
-[3] M. Beg, R. A. Pepper, and H. Fangohr, *User interfaces for computational science: A domain specific language for OOMMF embedded in python*. AIP Advances 7, 056025 (2017), https://doi.org/10.1063/1.4977225.
+[2] M. Beg, R. A. Pepper, and H. Fangohr, *User interfaces for computational science: A domain specific language for OOMMF embedded in python*. AIP Advances 7, 056025 (2017), https://doi.org/10.1063/1.4977225.
