@@ -13,6 +13,7 @@ set       A  [expr {20e-12}]
 set       Ku [expr {$A / 2.3e-16}]
 Parameter Ms [expr {0.648 / $MU0}]
 Parameter BzMax [expr {0.3}]
+Parameter Bsteps [expr {15}]
 
 Parameter OMFFILE "../film_random_A20pJm-2_mu0Ms648e-3/oommf_film_random_rseed2424-Oxs_MinDriver-Magnetization-00-0046246.omf"
 Parameter BASENAME "oommf_film_random"
@@ -51,7 +52,7 @@ Specify Oxs_Demag {}
 # FixedZeeman
 Specify Oxs_UZeeman [subst {
     Hrange {
-        { 0 0 0 0 0 $BzMax 15 } 
+        { 0 0 0 0 0 $BzMax $Bsteps } 
     }
     multiplier [expr {1 / $MU0}]
 }]
