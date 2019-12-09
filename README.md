@@ -5,7 +5,8 @@
 
 ![](images/bubble_lattice.png)
 
-This repository contains the micromagnetic simulation scripts for the publication **Do Images of Biskyrmions Show Type-II Bubbles?** by *J. C. Loudon, A. C. Harrison, D. Cortes-Ortuno, M. T. Birch, L. A. Turnbull, A. Stefancic, F. Ogrin, E. Burgos-Parra, A. Campbell, H. Popescu, M. Beg, O. Hovorka, H. Fangohr, P. A. Midgley, G. Balakrishnan and P. D. Hatton*
+This repository contains the micromagnetic simulation scripts for the publication **Do Images of Biskyrmions Show Type-II Bubbles?** by *J. C. Loudon, A. C. Harrison, D. Cortes-Ortuno, M. T. Birch, L. A. Turnbull, A. Stefancic, F. Ogrin, E. Burgos-Parra, A. Campbell, H. Popescu, M. Beg, O. Hovorka, H. Fangohr, P. A. Midgley, G. Balakrishnan and P. D. Hatton*, [Advanced Materials *31* 1806598 (2019), https://doi.org/10.1002/adma.201806598](https://doi.org/10.1002/adma.201806598)
+
 
 Simulations are based on the OOMMF code [1] and its Jupyter interface JOOMMF [2]
 
