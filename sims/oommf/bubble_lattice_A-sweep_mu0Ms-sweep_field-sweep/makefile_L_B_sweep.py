@@ -19,15 +19,18 @@ def SIM_TXT(Ms, A, BzMax, SAVE_FOLDER):
 
     pre = textwrap.dedent("""\
     #!/bin/bash
+    
+    OOMMF="/path/to/oommf/oommf.tcl"
 
+    # Only necessary if submitting to a cluster:
     #SBATCH --ntasks-per-node=20    # Tasks per node
     #SBATCH --nodes=1               # Number of nodes requested
     #SBATCH --time=02-00:00:00      # walltime
 
     """)
 
-    sim = ('tclsh /scratch/dic1v17/miniconda3/pkgs/oommf-2.0a0_20170929a0-5/opt/oommf/oommf.tcl '
-           ' boxsi -threads 20 '
+    sim = ('tclsh $OOMMF '
+           ' boxsi -threads 8 '
            '-parameters '
            '"'
            'Ms {0} '
@@ -63,4 +66,6 @@ for Ms in np.arange(0.4, 0.7, 0.05):
             F.write(SIM_TXT(Ms, A, Bz, SAVE_FOLDER))
             F.close()
 
-            subprocess.call('sbatch submit', shell=True)
+            # If submitting to a cluster:
+            # subprocess.call('sbatch submit', shell=True)
+            subprocess.call('bash submit', shell=True)
